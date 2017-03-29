@@ -7,7 +7,7 @@
   ])
   var routes = {
     home: {
-      templateUrl: 'search.html',
+      templateUrl: 'home.html',
       controller: 'HomeController'
     },
     default: {
