@@ -1,10 +1,18 @@
-;(function () {
-  var app = angular.module('app')
-  app.controller('HomeController', ['$scope', 'YelpAPIService' , HomeController])
-  function HomeController($scope, YelpAPIService) {
-    $scope.init = function(){
-      YelpAPIService.authenticate();
-    };
-    //function for hiding and displaying the search bar
-  }
+;
+(function() {
+        var app = angular.module('app')
+        app.controller('HomeController', ['$scope', '$http', 'YelpAPIService', HomeController])
+
+        function HomeController($scope, $http, YelpAPIService) {
+
+            $scope.searchText = '';
+            YelpAPIService.authenticate().then(function(response) {
+                YelpAPIService.getRestaurants('', 'san Francisco, ca', response.token)
+                    .then(function(response) {
+                        $scope.restaurants = response;
+                        console.log(response);
+                    }, function(response) {});
+            })
+        };
+    }
 })();
