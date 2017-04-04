@@ -1,4 +1,5 @@
 # FeastBeast
+Finding you food, bro.
 ### Usage:
 
 Sometimes the website will tell you that it is not secure when you first visit it. It happened for me but did not happen for my friend.
@@ -11,13 +12,13 @@ If it does happen, to view the solution please click the advanced options pull d
 
 In case the website is not up, the solution can be viewed by:
 
-1. Moving the files from the master branch into the folder
-2. Tranversing to the ui folder in your command line.
+1. Moving the files from the master branch into a folder on your machine.
+2. Traversing to the ui folder of the program in your command line.
 3. After you type these commands the website should pop up in your default browser:
-  * npm install
-  * npm install -g bower
-  * npm install -g gulp
-  * gulp spinup
+   * npm install
+   * npm install -g bower
+   * npm install -g gulp
+   * gulp spinup
   
 ---
 
