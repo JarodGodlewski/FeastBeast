@@ -1,9 +1,9 @@
 # FeastBeast
 ### Usage:
 
-Through my testing on chrome: the website will tell you that it is not secure when you first visit it.
+Sometimes the website will tell you that it is not secure when you first visit it. It happened for me but did not happen for my friend.
 
-To view the solution please click the advanced options pull down on that error page given by chrome and continue to the website anyway. 
+If it does happen, to view the solution please click the advanced options pull down on that error page and continue to the website anyway. 
 
 ---
 
@@ -15,8 +15,8 @@ In case the website is not up, the solution can be viewed by:
 2. Tranversing to the ui folder in your command line.
 3. After you type these commands the website should pop up in your default browser:
   * npm install
-  * npm instal -g bower
   * npm install -g bower
+  * npm install -g gulp
   * gulp spinup
   
 ---
