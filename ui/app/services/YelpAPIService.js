@@ -9,8 +9,8 @@
 
             var config = {
                 params: {
-                    location: 'atlanta, ga',
-                    token: access_token
+                    location: location,
+                    token: token
                 }
             }
 
