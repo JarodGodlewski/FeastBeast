@@ -1,5 +1,5 @@
 # FeastBeast
-Finding you food, bro.
+Finding you food, bro. [feastbeast](jarodgodlewski.com)
 ### Usage:
 
 Sometimes the website will tell you that it is not secure when you first visit it. It happened for me but did not happen for my friend.
@@ -28,7 +28,9 @@ This website was a submission for the coding challenege put out by CapitalOne fo
 
 The "FeastBeast" logo is play on the company Supreme's logo and how their followers are known as "HypeBeasts".
 
-I made a swagger API on heroku to make my calls to the Yelp Fusion API; since the Yelp API did not allow direct calls to it's API from my JavaScript file.
+**API**
+
+I made a simple expressjs with swagger API and deployed the code to be run on heroku. It uses the yelp-fusion node module to make calls to the Yelp API: https://www.npmjs.com/package/yelp-fusion
 
 ---
 
