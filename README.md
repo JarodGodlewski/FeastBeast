@@ -8,6 +8,17 @@ If it does happen, to view the solution please click the advanced options pull d
 
 ---
 
+**Requirements:**
+
+This program uses:
+
+1. Node.js v3.10.3
+2. Bower v3.3.6
+3. Angular v1.4.3
+4. Bootstrap v3.3.6
+
+---
+
 **Installation:**
 
 In case the website is not up, the solution can be viewed by:
@@ -32,13 +43,3 @@ The "FeastBeast" logo is play on the company Supreme's logo and how their follow
 
 I made a simple expressjs with swagger API and deployed the code to be run on heroku. It uses the yelp-fusion node module to make calls to the Yelp API: https://www.npmjs.com/package/yelp-fusion
 
----
-
-**Details:**
-
-This program uses:
-
-1. Node.js v3.10.3
-2. Bower v3.3.6
-3. Angular v1.4.3
-4. Bootstrap v3.3.6
