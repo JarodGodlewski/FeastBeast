@@ -10,7 +10,7 @@
         $scope.getLocation = function() {
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(function(position) {
-                    $scope.latLong = 'cll=' + position.coords.latitude + ',' + position.coords.longitude;
+                    $scope.latLong = position.coords.latitude + ',' + position.coords.longitude;
                     console.log($scope.latLong);
                     $scope.getData();
                 }, function() {
