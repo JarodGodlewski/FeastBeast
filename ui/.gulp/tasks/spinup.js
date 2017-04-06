@@ -3,11 +3,7 @@ var gulp = require('gulp')
 var runSequence = require('run-sequence')
 
 module.exports = function (config) {
-  // run the build task, start up a browser, then
-  // watch the different file locations and execute
-  // the relevant tasks
   return function () {
-    // location of your backend server
     browserSync.init({
       server: {
         baseDir: config.app.dist,
