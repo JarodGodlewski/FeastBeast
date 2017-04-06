@@ -4,7 +4,6 @@ var inject = require('gulp-inject')
 var concat = require('gulp-concat')
 var wiredep = require('wiredep')
 module.exports = function (config) {
-  // move the source html files and inject the widget javascript
   return function () {
     var srcDir = config.app.src
     var distDir = config.app.dist
